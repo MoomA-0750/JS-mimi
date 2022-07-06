@@ -1,0 +1,142 @@
+body {
+    background-color: #FBF6F0;
+    color: #6A6868;
+}
+
+.bodyCenter {
+    transform: scale(0.8);
+}
+
+.forDebug {
+    position: fixed;
+    top: 25px;
+    left: 25px;
+    font-family: 'Montserrat', serif;
+}
+
+.forDebug > .bubble {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, .25));
+}
+
+.bubble > .title {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.button {
+    background-color: #ffffff;
+    padding: 5px;
+    margin: 10px 10px 0 0;
+    border-radius: 5px;
+    filter: drop-shadow(0 2px 2px rgba(0, 0, 0, .25));
+    transition: 0.25s;
+}
+
+.button:hover {
+    text-decoration: none;
+    background-color: #FFDA77;
+}
+
+
+
+.bgNumsBox {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.bgNumsFlex {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+#bgNums {
+    font-family: 'Montserrat', serif;
+    font-size: 1000px;
+    font-weight: 900;
+    margin: 0;
+    color: #FFDA77;
+}
+
+.mainContents {
+    position: absolute;
+    width: 100%;
+}
+
+.upperText {
+    margin: 0 auto 50px;
+    text-align: center;
+}
+
+.upperText > h1 {
+    margin: 100px auto 75px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+}
+
+.mimiCountFlex {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.mimiCountTitle {
+    font-family: 'Kiwi Maru', serif;
+}
+
+#mimiCount {
+    font-family: 'Kiwi Maru', serif;
+    font-size: 60px;
+    margin: 0;
+}
+
+.mimiIcons {
+    text-align: center;
+}
+
+.mimiIcons > img {
+    width: 400px;
+    height: 400px;
+}
+
+.mimiNameBox {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.mimiNameFlex {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+#mimiName {
+    font-family: 'Kiwi Maru', serif;
+    font-size: 100px;
+    color: #FFA45B;
+    margin: 0;
+}
+
+.tsuki {
+    font-family: 'Kiwi Maru', serif;
+    font-size: 50px;
+    color: #AEE6E6;
+    margin: 0 0 15px 0;
+}
+
+.footer {
+    font-family: 'Montserrat', serif;
+    text-align: center;
+    margin: 100px 0 50px 0;
+}

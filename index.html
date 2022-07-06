@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mimi</title>
+    <link href="https://cdn.skypack.dev/sanitize.css" rel="stylesheet" />
+    <link rel="stylesheet" href="index.css">
+
+    <!--Adobe Fonts - NinEars-->
+    <script>
+        (function(d) {
+            var config = {
+                kitId: 'vpl6egt',
+                scriptTimeout: 3000,
+                async: true
+            },
+            h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+    </script>
+
+    <!--Google Fonts - Kiwi Maru, Montserrat - Varela Round-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=Montserrat:wght@700&family=Varela+Round&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+
+
+    <div class="bodyCenter">
+        <div class="bgNumsBox">
+            <div class="bgNumsFlex">
+                <p id="bgNums">0</p>
+            </div>
+        </div>
+
+        <div class="mainContents">
+            <div class="upperText">
+                <h1>mimi</h1>
+                <div class="mimiCountFlex">
+                    <p class="mimiCountTitle">現在の耳の数: </p> <p id="mimiCount">ワカラン。。。</p>
+                </div>
+            </div>
+            <div class="mimiIcons">
+                <img src="Mates/NoInput_Image.png" alt="NoInput" id="mimiPics">
+            </div>
+        
+            <div class="mimiNameBox">
+                <div class="mimiNameFlex">
+                    <p id="mimiName">未知</p> <p class="tsuki">月</p>
+                </div>
+            </div>
+            <div class="footer">
+                <p class="footerP">- nanmowakarannosuke -</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="forDebug">
+
+        <div class="bubble">
+            <div class="title">Debug Window</div>
+            <div class="contents">
+                <!-- <div id="tastingYScroll">YScroll: none</div> -->
+                <div id="tastingWheelDelta">WheelD: none</div>
+                <div id="tastingTempMimiCount">MimiCount: none</div>
+            </div>
+        </div>
+
+        <div class="bubble">
+            <div class="title">Control Panel</div>
+            <div class="contents">
+                <div class="subTitle">Scroll Toggle</div>
+                    <div class="buttonGroup">
+                        <div class="button" id="contPScrollOn">On</div>
+                        <div class="button" id="contPScrollOff">Off</div>
+                    </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
